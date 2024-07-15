@@ -1,0 +1,66 @@
+9<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://images.pexels.com/photos/707582/pexels-photo-707582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+        table, tr, th, td{
+            border: 2px solid rgb(7, 5, 5);
+            border-collapse: collapse;
+            text-align: center; /* added this line to center the text */
+            font-size: 20px; /* added to increase font size*/
+            font-family: Gill Sans;
+        }
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th rowspan="2">State of Head</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Eating</th>
+          </tr>
+          <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Heathly</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+          </tr>
+          <tr>
+            <td>Pre-Diebites</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+          </tr>
+          <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
